@@ -1,5 +1,5 @@
 {
-  "name": "@acme/api",
+  "name": "@wosdamaheid/api",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -19,20 +19,20 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@acme/auth": "workspace:*",
-    "@acme/db": "workspace:*",
-    "@acme/validators": "workspace:*",
+    "@wosdamaheid/auth": "workspace:*",
+    "@wosdamaheid/db": "workspace:*",
+    "@wosdamaheid/validators": "workspace:*",
     "@trpc/server": "catalog:",
     "superjson": "2.2.1",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
-    "@acme/prettier-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@wosdamaheid/eslint-config": "workspace:*",
+    "@wosdamaheid/prettier-config": "workspace:*",
+    "@wosdamaheid/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@wosdamaheid/prettier-config"
 }
