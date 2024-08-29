@@ -3,7 +3,7 @@ import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
 import { appRouter, createTRPCContext } from "@wosdamaheid/api";
 import { auth } from "@wosdamaheid/auth";
 
-export const runtime = "edge";
+
 
 /**
  * Configure basic CORS headers
